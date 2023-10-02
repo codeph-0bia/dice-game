@@ -4,10 +4,10 @@ The website simulates a dice game challenge where on every refresh both dice are
 
 ## Snapshots:
 ### Player 1 Wins-
-<img alt="player1-image" src="./images/conditions/p1wins.PNG">
+<img alt="player1-image" src="./images/conditions/p1wins.png">
 
 ### Player 2 Wins-
-<img alt="player2-image" src="./images/conditions/p2wins.PNG">
+<img alt="player2-image" src="./images/conditions/p2wins.png">
 
 ### Draw Condition-
-<img alt="draw-image" src="./imags/conditions/draw.PNG">
+<img alt="draw-image" src="./imags/conditions/draw.png">
