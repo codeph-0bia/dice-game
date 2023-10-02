@@ -1,5 +1,3 @@
-//TODO: Generate 2 random paths of images
-
 let player1Score = Math.floor(Math.random() * 6) + 1;
 let player2Score = Math.floor(Math.random() * 6) + 1;
 
@@ -9,18 +7,15 @@ let player2ImagePath = "./images/dice" + player2Score + ".png";
 console.log(player1ImagePath);
 console.log(player2ImagePath);
 
-//TODO: Set images
 let img1 = document.querySelectorAll("img")[0]
 img1.setAttribute("src", player1ImagePath);
 let img2 = document.querySelectorAll("img")[1]
 img2.setAttribute("src", player2ImagePath);
 
-//TODO: calculate winner
 let winnerDeclaration = "";
 if (player1Score == player2Score) winnerDeclaration = "DRAW!";
 else if (player1Score > player2Score) winnerDeclaration = "🚩Player 1 WINS!🏳️";
 else winnerDeclaration = "🏳️Player 2 WINS!🚩";
 
-//TODO: declare winner
 
 document.querySelector("h1").innerHTML = winnerDeclaration;
