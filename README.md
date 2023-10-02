@@ -10,4 +10,4 @@ The website simulates a dice game challenge where on every refresh both dice are
 <img alt="player2-image" src="./images/conditions/p2wins.png">
 
 ### Draw Condition-
-<img alt="draw-image" src="./imags/conditions/draw.png">
+<img alt="draw-image" src="./images/conditions/draw.png">
